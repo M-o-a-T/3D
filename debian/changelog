@@ -1,0 +1,5 @@
+moat-cad (0.1.0-1) unstable; urgency=medium
+
+  * Initial Debianization.
+
+ -- Matthias Urlichs <matthias@urlichs.de>  Sat, 23 Mar 2024 17:53:21 +0100

@@ -1,0 +1,26 @@
+Source: moat-cad
+Maintainer: "Matthias Urlichs" <matthias@urlichs.de>
+Section: python
+Priority: optional
+Build-Depends: dh-python, python3-setuptools, python3-all, debhelper (>= 13),
+  python3-setuptools,
+  python3-wheel,
+  python3-setuptools-scm,
+Standards-Version: 3.9.6
+Homepage: https://m-o-a-t.org
+
+Package: python3-moat-cad
+Architecture: all
+Depends: ${misc:Depends}, ${python3:Depends},
+  python3-anyio (>= 4.0),
+  python3-cadquery (>= 2.0),
+Description: CAD files for various MoaT-related things
+  # MoaT 3D
+  .
+  This folder contains a bunch of OpenSCAD files that work for me.
+  .
+  ## Switchboard
+  .
+  Just a row of holes, stable enough to screw to a shelf board or whatever.
+  .
+
